@@ -6,9 +6,11 @@ int main(){
   double body = 98.2;
   double temp1,temp2,temp3;
   string f;
+  for (int i=0;i<5;i++){
+    cout<<"unji"<<endl;
+  }
 
-
-  cin >> temp1 >>f>>temp2 >>f>> temp3>>f>>f;
+  cin >> temp1 >>f>>temp2 >>f>> temp3>>f;
 
   if ( temp1-body < .5 && temp1-body >-0.5){
     cout << temp1 << "F" << endl;
